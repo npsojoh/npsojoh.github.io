@@ -1,0 +1,17 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+* {
+    cursor: url("/aero_arrow.cur"), default;
+    scroll-behavior: smooth;
+}/* 全局默认样式 */
+a,
+button:hover,
+.btn,
+.btn:hover,
+input.button,
+.yui-navset .yui-nav li a {
+    cursor: url("/aero_link.cur"), pointer;
+}/* 链接按钮 */
+span.odate,
+span.spantip {
+    cursor: url("/aero_helpsel.cur"), help !important;
+}/* 问号：日期和其他悬浮 */
