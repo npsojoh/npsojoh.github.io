@@ -3,7 +3,7 @@
     cursor: url("/aero_arrow.cur"), default;
     scroll-behavior: smooth;
 }/* 全局默认样式 */
-a,
+a, a span,
 button:hover,
 .btn,
 .btn:hover,
