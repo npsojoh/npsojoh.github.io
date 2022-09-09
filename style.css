@@ -1,4 +1,4 @@
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');/* 图标 */
 :root {
     --trans-time: 0.25s;
 }
@@ -143,6 +143,7 @@ main > .content{
     padding-right: 15px;
 }
 
+/* 顺序不能弄反，否则会按最后的大小进行判定（？）*/
 @media (min-width: 768px){
     .container{    max-width:750px; }
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11{    float:left; }
@@ -171,4 +172,5 @@ main > .content .page-title {
     margin: 15px 0 1em 0;
     padding: 0;
     line-height: 1.25em;
+    border-color: #00498E;
 }/* 页面标题 */
