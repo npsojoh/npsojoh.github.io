@@ -153,16 +153,6 @@ main > .content{
 @media (min-width: 992px){    .col-md-9 {    width: 75%; } }
 @media (min-width: 992px){    .col-md-3 {    width: 25%; } }
 
-
-
-
-.form-control:focus,
-input[type=text]:not(.form-control):focus,
-textarea:not(.form-control):focus,
-main .content .page-title,
-.image-box.image-box-primary .image-box-link:hover{    border-color: #00498E; }
-
-
 nav.side-bar-wrap{    float: right; }
 
 main > .content .page-title {
@@ -172,5 +162,5 @@ main > .content .page-title {
     margin: 15px 0 1em 0;
     padding: 0;
     line-height: 1.25em;
-    border-color: #00498E;
+    border-color: linear-gradient(#00498E, #7cc3f2, #556ad6);
 }/* 页面标题 */
