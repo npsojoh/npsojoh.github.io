@@ -226,3 +226,12 @@ li.folded > .colmod-content {
     background:#DDD;
     text-decoration:none;
 }/* 多重折叠 */
+
+.image-container{    padding: 1em;}
+.image-container.aligncenter{    text-align: center; }
+.mnav {
+    margin: 1%;
+    padding: 1%;
+    float: left;
+    width: 100%;
+}
