@@ -15,3 +15,23 @@ span.odate,
 span.spantip {
     cursor: url("/aero_helpsel.cur"), help !important;
 }/* 问号：日期和其他悬浮 */
+header.header-wrap h1 a {
+    font-family: NSimSun, "Times New Roman", "Source Han Serif", "Sounrce Han Serif CN", "Songti SC", serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: color 128ms ease-out;
+}
+header.header-wrap h1 a:hover,
+header.header-wrap h1 a:focus,
+header.header-wrap h1 a:active{
+    text-decoration: none;
+}
+body,
+main .content .feature.offcolor{
+    background: url(http://r.photo.store.qq.com/psc?/V52ApUKa0d3o5d4CGMT51dQeVg4c18Pf/45NBuzDIW489QBoVep5mcVU6UAMnxET4mVn4im6AKVAcgYg2saHo41nV.HSPn9TlWLc7nrTG2zW9ayqtr2BcBrVKn36mE9aMd.0LmhtcVw8!/r);
+    background-position: left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
