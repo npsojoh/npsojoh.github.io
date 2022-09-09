@@ -63,3 +63,9 @@ main .content .feature-header h1{
     color: #E7E7EA;
 }
 .image-box.image-box-primary .image-box-heading{  color: #E7E7EA !important; }
+footer .footer{
+    text-align: center;
+    padding-bottom: 32px;
+    color: #fff;
+}
+footer .footer > div{  margin: 8px 0; }
