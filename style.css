@@ -129,7 +129,7 @@ main > .content{
     position: relative;
     top: -110px;
     border-radius: 4px;
-    padding-bottom: 15px;
+    padding-bottom: 28px;
 }
 .container{    margin-right:auto; margin-left:auto; padding-left:15px; padding-right:15px; }
 .container:before, .container:after{    content:" ";display:table; }
