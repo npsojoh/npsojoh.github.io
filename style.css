@@ -177,6 +177,10 @@ nav.side-bar-wrap .navbar-collapse {    max-height: none; }
     }
 }
 
+@media (min-width: 1300px){
+    .container {    max-width: 1000px; }
+}
+
 main > .content .page-title {
     font-family: NSimSun, "Times New Roman", "Source Han Serif", "Sounrce Han Serif CN", "Songti SC", serif;
     font-size: 32px;
