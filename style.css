@@ -131,7 +131,7 @@ main > .content{
 .container:after{    clear:both; }
 .container:before,.container:after{    content:" ";display:table; }
 .container:after{    clear:both; }
-@media (min-width: 992px){    .container {    max-width: 970px; } }
+
 .row{    margin-left:-15px; margin-right:-15px; }
 .row:before,.row:after{    content:" "; display:table;}
 .row:after{    clear:both; }
@@ -151,6 +151,7 @@ main > .content{
     .container{    max-width:750px; }
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11{    float:left; }
 }
+@media (min-width: 992px){    .container {    max-width: 970px; } }
 
 .form-control:focus,
 input[type=text]:not(.form-control):focus,
