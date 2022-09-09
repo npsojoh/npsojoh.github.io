@@ -1,4 +1,24 @@
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+:root {
+    --trans-time: 0.25s;
+}
+a,
+.pager > .target > a,
+.pager > .current,
+.pager > .dots,
+nav .side-bar ul li a:hover,
+.hover {
+    text-decoration: none;
+    color: #76aa09;
+    -webkit-transition: var(--trans-time, 0.25s) color;
+    -o-transition: var(--trans-time, 0.25s) color;
+    -moz-transition: var(--trans-time, 0.25s) color;
+    transition: var(--trans-time, 0.25s) color;
+}/* 链接 */
+a:hover,
+a:focus {
+    color: #11a2d0;
+}/* 悬停 + 选中链接 */
 * {
     cursor: url("/aero_arrow.cur"), default;
     scroll-behavior: smooth;
