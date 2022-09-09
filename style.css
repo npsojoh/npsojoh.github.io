@@ -164,6 +164,7 @@ nav .side-bar {
     font-size: 13px;
     color: #999;
 }
+nav.side-bar-wrap .navbar-collapse {    max-height: none; }
 
 main > .content .page-title {
     font-family: NSimSun, "Times New Roman", "Source Han Serif", "Sounrce Han Serif CN", "Songti SC", serif;
