@@ -139,6 +139,10 @@ main > .content{
 }
 @media (min-width: 992px){    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 {    float: left; } }
 @media (min-width: 992px){    .col-md-9 {    width: 75%; } }
+@media (min-width: 768px){
+    .container{    max-width:750px; }
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11{    float:left; }
+}
 main > .content .page-title {
     font-family: NSimSun, "Times New Roman", "Source Han Serif", "Sounrce Han Serif CN", "Songti SC", serif;
     font-size: 32px;
