@@ -158,6 +158,7 @@ nav.side-bar-wrap{    float: right; }
 main > .content .page-title {
     font-family: NSimSun, "Times New Roman", "Source Han Serif", "Sounrce Han Serif CN", "Songti SC", serif;
     font-size: 32px;
+    text-align: center;
     margin: 15px 0 1em 0;
     padding: 0;
     line-height: 1.25em;
