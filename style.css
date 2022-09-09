@@ -133,3 +133,11 @@ main > .content{
     padding-left: 15px;
     padding-right: 15px;
 }
+main > .content .page-title {
+    font-family: NSimSun, "Times New Roman", "Source Han Serif", "Sounrce Han Serif CN", "Songti SC", serif;
+    font-size: 32px;
+    border-bottom: 3px solid;
+    margin: 15px 0 1em 0;
+    padding: 0;
+    line-height: 1.25em;
+}/* 页面标题 */
