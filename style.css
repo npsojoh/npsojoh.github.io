@@ -248,6 +248,19 @@ li.folded > .colmod-content {
     text-decoration:none;
 }/* 多重折叠 */
 
+a.collapsible-block-link {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 10px;
+    background-color: #273b6d;
+    border-radius: 4px;
+    text-decoration: none;
+}/* 折叠链接 */
+
 .image-container{    padding: 1em;}
 .image-container.aligncenter{    text-align: center; }
 .mnav {
