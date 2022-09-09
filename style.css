@@ -162,5 +162,5 @@ main > .content .page-title {
     margin: 15px 0 1em 0;
     padding: 0;
     line-height: 1.25em;
-    border-color: linear-gradient(#00498E, #7cc3f2, #556ad6);
+    border-image: linear-gradient(#00498E, #7cc3f2, #556ad6);
 }/* 页面标题 */
