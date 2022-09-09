@@ -15,10 +15,7 @@ nav .side-bar ul li a:hover,
     -moz-transition: var(--trans-time, 0.25s) color;
     transition: var(--trans-time, 0.25s) color;
 }/* 链接 */
-a:hover,
-a:focus {
-    color: #11a2d0;
-}/* 悬停 + 选中链接 */
+a:hover, a:focus{    color: #11a2d0; }/* 悬停 + 选中链接 */
 * {
     cursor: url("/aero_arrow.cur"), default;
     scroll-behavior: smooth;
