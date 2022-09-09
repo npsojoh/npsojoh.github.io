@@ -177,7 +177,7 @@ nav.side-bar-wrap .navbar-collapse {    max-height: none; }
     }
 }
 
-@media (min-width: 1300px){
+@media (min-width: 1200px){
     .container {    max-width: 1170px; }
 }
 
