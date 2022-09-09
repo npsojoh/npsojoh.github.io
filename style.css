@@ -84,7 +84,15 @@ footer .footer > div{  margin: 8px 0; }
 }
 ::-webkit-scrollbar-thumb {    background: #8ea3c2; }/* 默认滑块 */
 input, textarea{    caret-color: #4d5eff; }/* 光标 */
- @supports (-webkit-mask: none) and (not (cater-color: #72c8fe)) {
+@supports (-webkit-mask: none) and (not (cater-color: #72c8fe)) {
     input, textarea { color: #4d5eff; }
     input::first-line {  }
 }
+::selection {
+    background: #b5c4f7;
+    color: #3713be;
+}/* webkit, opera, IE9 */
+::-moz-selection {
+    background: #b5c4f7;
+    color: #3713be;
+}/* mozilla firefox */
