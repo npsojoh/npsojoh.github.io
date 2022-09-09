@@ -20,6 +20,7 @@ header.header-wrap h1 a {
     font-size: 32px;
     font-weight: 600;
     letter-spacing: 1px;
+    text-decoration: none;
     transition: color 128ms ease-out;
 }
 header.header-wrap h1 a:hover,
@@ -35,3 +36,18 @@ main .content .feature.offcolor{
     background-repeat: no-repeat;
     background-size: cover;
 }
+header.header-wrap h2,
+header.header-wrap h1 a,
+nav .top-bar .navbar-brand,
+.wiki-content-table > thead > tr > th,
+.wiki-content-table > tbody > tr > th,
+.wiki-content-table > tfoot > tr > th,
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.btn.btn-primary,
+.tabview-primary .yui-navset .yui-nav li a,
+main .content .feature-header h1{
+    color: #E7E7EA;
+}
+.image-box.image-box-primary .image-box-heading{  color: #E7E7EA !important; }
