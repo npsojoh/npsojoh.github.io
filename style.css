@@ -35,6 +35,11 @@ span.spantip {
     cursor: url("/aero_helpsel.cur"), help !important;
 }/* 问号：日期和其他悬浮 */
 
+header.header-wrap{
+    position: relative;
+    height: 350px;
+}
+header .header{  position: relative; }
 header.header-wrap h1 a {
     font-family: NSimSun, "Times New Roman", "Source Han Serif", "Sounrce Han Serif CN", "Songti SC", serif;
     font-size: 32px;
