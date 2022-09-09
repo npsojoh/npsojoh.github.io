@@ -27,7 +27,19 @@ header.header-wrap h1 a:hover,
 header.header-wrap h1 a:focus,
 header.header-wrap h1 a:active{
     text-decoration: none;
+    color: #fff;
 }
+header.header-wrap h2 {
+    font-family: NSimSun, "Times New Roman", "Source Han Serif", "Sounrce Han Serif CN", "Songti SC", serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    padding-left: 56px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+header.header-wrap .site-title{  min-height: 75px; }
 body,
 main .content .feature.offcolor{
     background: url(http://r.photo.store.qq.com/psc?/V52ApUKa0d3o5d4CGMT51dQeVg4c18Pf/45NBuzDIW489QBoVep5mcVU6UAMnxET4mVn4im6AKVAcgYg2saHo41nV.HSPn9TlWLc7nrTG2zW9ayqtr2BcBrVKn36mE9aMd.0LmhtcVw8!/r);
