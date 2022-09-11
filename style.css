@@ -152,10 +152,11 @@ main > .content{
 @media (min-width: 768px){
     .container{    max-width:750px; }
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11{    float:left; }
+    header.header-wrap h1 a{    color: #fff; }/* 小屏幕标题会显示在云那里 */
 }
 @media (min-width: 992px){    .container {    max-width: 970px; } }
 @media (min-width: 992px){    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 {    float: left; } }
-@media (min-width: 992px){    .col-md-9 {    width: 73.88%; } }
+@media (min-width: 992px){    .col-md-9 {    width: 73.87%; } }
 @media (min-width: 992px){    .col-md-3 {    width: 20.0009%; } }
 
 nav.side-bar-wrap{    float: right; }
