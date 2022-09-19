@@ -47,6 +47,7 @@ header.header-wrap h1 a {
     letter-spacing: 1px;
     text-decoration: none;
     transition: color 128ms ease-out;
+    color: #fff;
 }
 header.header-wrap h1 a:hover,
 header.header-wrap h1 a:focus,
@@ -76,7 +77,6 @@ main .content .feature.offcolor{
     background-size: cover;
 }
 
-header.header-wrap h1 a,
 nav .top-bar .navbar-brand,
 .wiki-content-table > thead > tr > th,
 .wiki-content-table > tbody > tr > th,
@@ -88,13 +88,6 @@ nav .top-bar .navbar-brand,
 .tabview-primary .yui-navset .yui-nav li a,
 main .content .feature-header h1{
     color: #E7E7EA;
-}
-
-@media (min-width: 768px){
-    header.header-wrap h1 a{    color: #fff; }/* 小屏幕标题会显示在云那里 */
-}
-@media (min-width: 720px){
-    header.header-wrap h1 a{    color: #fff; }
 }
 
 .image-box.image-box-primary .image-box-heading{  color: #E7E7EA !important; }
