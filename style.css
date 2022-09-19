@@ -93,6 +93,9 @@ main .content .feature-header h1{
 @media (min-width: 768px){
     header.header-wrap h1 a{    color: #fff; }/* 小屏幕标题会显示在云那里 */
 }
+@media (min-width: 720px){
+    header.header-wrap h1 a{    color: #fff; }
+}
 
 .image-box.image-box-primary .image-box-heading{  color: #E7E7EA !important; }
 footer .footer{
